@@ -6,7 +6,8 @@
         <meta name="author" content="William Weatherholtz" />
         <meta name="copyright" content="William Weatherholtz" />
 
-        <title>tinkerKing
+<meta name="keywords" content="thermodynamics, FEA, product design, Inveneo, ARM, Project, " />
+        <title>Inveneo&nbsp;Challenge  - Introduction  · tinkerKing
 </title>
         <link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -33,7 +34,7 @@
                     <a class="brand" href="https://williamweatherholtz.github.io/"><span class=site-name><span style="color:#8B0000;">tinker</span><span style="color:#f4b942;">King</span></span></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right top-menu">
-                            <li  class="active"><a href="https://williamweatherholtz.github.io">Home</a></li>
+                            <li ><a href="https://williamweatherholtz.github.io">Home</a></li>
                             <li ><a href="https://williamweatherholtz.github.io/categories.html">Categories</a></li>
                             <li ><a href="https://williamweatherholtz.github.io/tags.html">Tags</a></li>
 							<!-- <li ><a href="https://williamweatherholtz.github.io/about.html">About</a></li> -->
@@ -48,61 +49,71 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
+<article>
 <div class="row-fluid">
-    <header class="page_header span12">
-    <h1><a href="https://williamweatherholtz.github.io">tinkerKing: A blog about tinkering excellently</a></h1>
+    <header class="page_header span10 offset2">
+    <h1><a href="https://williamweatherholtz.github.io/drafts/inveneo-challenge.html"> Inveneo&nbsp;Challenge  <small> Introduction </small>  </a></h1>
     </header>
-
-    <div class="row-fluid">
-        <div class="span8">
-            <header>
-            <h1 id="about-me">About the site</h1>
-            </header>
-            <div class="article-content">
-                <p>My name is William Weatherholtz, and I'm a mechanical engineer with a background in robotics, programming, and electronics.  I'm passionate about automation and creative problem solving.<p>On this blog, I'll discuss a variety of technical issues and tools, starting with a well defined engineering problem.  By focusing on the technical problem at hand, I hope to future-proof lessons learned, so that better solutions can be made more obvious.  I'll try not to shoehorn you into a solution just because it's easy.</p><p>This blog grew out of the relative lack of good physical robotics insight available online, and the inclination of engineering-y blogs that do exist to focus on flashy hack-job solutions to problems.  This sensationalistic focus leaves many readers without an understanding of things past the trivial level.  While I'll discuss fundamentals on this blog, my aim is to provide a more excellent intermediate level understanding here.</p><p>This blog also serves as a repository for my projects, which are always under the <b>Projects</b> Category.   Notable projects are also listed in the sidebar on this page.</p><p><h2>Contact</h2></p><p>The best way to get hold of me is to <a href="mailto:williamweatherholtz@gmail.com" title="My email address" itemprop="email">email me</a> directly.  You can also contact me via <a href="https://www.linkedin.com/in/williamweatherholtz" title="My LinkedIn" itemprop="email">LinkedIn</a></p>
-            </div>
-        </div>
-
-        <div class="span4">
-            <header>
-            <h1 id="my-projects">My Projects</h1>
-            <ul class="list-all-articles">
-                <li>
-                <a href="" title="Micro-Data Center Design Challenge">Micro-Data Center Design Challenge</a> <span class="proj_desc">The design and thermal analysis of a solar powered third-world educational computing platform</span>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="" title="Electric Utility Vehicle">Electric Utility Vehicle</a> <span class="proj_desc">My poor attempt at creating an electric vehicle</span>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="" title="Flamb-né">Flamb-né</a> <span class="proj_desc">A vent hood that uses thermal computer vision, machine learning, and off the shelf fire extinguishers to automatically extinguish stovetop fires</span>
-                </li>
-            </ul>
-            <ul class="list-all-articles">
-                <li>
-                <a href="" title="Lucent Amusement">Lucent Amusement</a> <span class="proj_desc">An Kalman filter based, high fidelity, calibration free, low cost arcade light gun</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row-fluid">
-        <div class="span12">
-            <header>
-            <h1 id="recent-posts">Recent Posts <a id="allposts" href="https://williamweatherholtz.github.io/archives.html">all posts</a></h1>
-            </header>
-            <ul class="list-all-articles">
-                <li>
-                <a href="https://williamweatherholtz.github.io/introduction-to-system-dynamics">Introduction to System&nbsp;Dynamics  <small> What is dynamics? </small>  </a> 
-                <time pubdate="pubdate" datetime="2017-04-09T00:00:00-06:00">Sun 09 April 2017</time>
-                </li>
-            </ul>
-        </div>
-    </div>
 </div>
+
+<div class="row-fluid">
+	
+	<div class="span2 table-of-content">
+		<h4>Part <built-in method index of unicode object at 0x03B2BD88> in the <i></i> series:</h4>
+			<ol class="toc">
+			</ol>		
+        <nav>
+        <h4>Contents</h4>
+        <div class="toc">
+<ul>
+<li><a href="#background">Background</a></li>
+<li><a href="#design-overview">Design Overview</a></li>
+<li><a href="#hindsight">Hindsight</a></li>
+</ul>
+</div>
+        </nav>
+    </div>
+    <div class="span8 article-content">	
+			
+
+            
+<h2 id="background">Background</h2>
+<p>In fall of 2015, I entered <a href="http://www.inveneo.org/2015/09/how-to-design-a-data-center-for-the-developing-world/">and won</a> a <a href="http://www.inveneo.org/2015/03/inveneo-launches-arm-micro-data-center-design-challenge-2015/">design competition</a> held by Inveneo and <span class="caps">ARM</span>.<br/>
+The point of the contest was to design a parallel computing blade server platform using off-the-shelf <span class="caps">ARM</span> based Single Board Computers (<span class="caps">SBC</span>)</p>
+<h2 id="design-overview">Design Overview</h2>
+<h2 id="hindsight">Hindsight</h2>
+            <aside>
+            <hr/>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2015-09-03T10:20:00-06:00">Sep 3, 2015</time>
+ 
+            <h4>Last Updated</h4>
+            <div class="last_updated">2017-01-02 19:00:00-07:00</div>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#Project-ref">Project</a> 
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article"> 
+                <li><a href="/tags.html#ARM-ref">ARM
+</a></li>
+                <li><a href="/tags.html#FEA-ref">FEA
+</a></li>
+                <li><a href="/tags.html#Inveneo-ref">Inveneo
+</a></li>
+                <li><a href="/tags.html#product-design-ref">product design
+</a></li>
+                <li><a href="/tags.html#thermodynamics-ref">thermodynamics
+</a></li>
+            </ul>
+
+        </div>
+        </section>
+</div>
+</article>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -114,7 +125,7 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
-</footer>        <script src="https://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+</footer>            <script src="https://code.jquery.com/jquery.min.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js" type="text/javascript"></script>
         <script>
             function validateForm(query)
@@ -122,5 +133,6 @@
                 return (query.length > 0);
             }
         </script>
+
     </body>
 </html>
